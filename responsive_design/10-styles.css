@@ -544,6 +544,7 @@ align-items: center;
 
 .menu-btn:checked ~ .navbar-menu {
   display: block;
+  flex-basis: 100%;
 }
 
 .menu-btn:checked ~ .navbar-menu .nav {
@@ -662,6 +663,7 @@ fill: var(--text-color);
   .footer .social.nav,
   .footer .footer-nav {
     text-align: center;
+    justify-content: center;
   }
 
   .social.nav li + li,

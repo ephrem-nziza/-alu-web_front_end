@@ -544,6 +544,7 @@ align-items: center;
 
 .menu-btn:checked ~ .navbar-menu {
   display: block;
+  flex-basis: 100%;
 }
 
 .menu-btn:checked ~ .navbar-menu .nav {
